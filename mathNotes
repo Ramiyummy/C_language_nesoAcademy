@@ -1,0 +1,8 @@
+Range of Integer: 4 bytes(32bits)
+
+#Unsigned: 2^n - 1
+>> range: from 0 to 4294967295
+
+#Signed 2's complement formula: -(2^n-1) to +(2^n-1 - 1).
+>> range: from -2147483648 to 2147483647
+
