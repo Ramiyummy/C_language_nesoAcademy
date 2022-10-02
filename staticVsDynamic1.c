@@ -3,7 +3,7 @@
 Stack is a container (or memory segment) which holds some data.
 Data is retrieved in Last In First Out (LIFO) fashion.
 There are two operations which can be performed on stack. Push operation helps to place an element in the stack, while the other one called pop helps to retrieve an element from the stack.*/
-//Activation R60ecord is a portion of the stack, which is composed of:
+//Activation Record is a portion of the stack, which is composed of:
 // 1. locals of the callee.
 // 2. address of the caller.
 // 3. parameters of the callee
