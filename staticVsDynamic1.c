@@ -1,4 +1,4 @@
-#include <stdio.h>
+// Static Scoping
 /* Properties of Stack
 Stack is a container (or memory segment) which holds some data.
 Data is retrieved in Last In First Out (LIFO) fashion.
@@ -7,6 +7,8 @@ There are two operations which can be performed on stack. Push operation helps t
 // 1. locals of the callee.
 // 2. address of the caller.
 // 3. parameters of the callee
+
+#include <stdio.h>
 int main(void)
 {
   int a = 10;
