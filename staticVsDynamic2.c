@@ -1,6 +1,6 @@
 // Static Scoping.
 //In Static scoping(lexical scoping), definition of a variable is resolved b searching its containing block
-// or function. If tht fails, then searching the outer containing blokc and so on.
+// or function. If tht fails, then searching the outer containing block and so on.
 #include <stdio.h>
 int fun1(int);
 int fun2(int);
