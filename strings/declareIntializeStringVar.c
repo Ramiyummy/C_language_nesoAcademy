@@ -8,8 +8,8 @@ int main(void)
 {
   char string[5] = "Hey!"; // 'H' 'e' 'y' '!' '\0'
   string[0] = 'Y'; // We can modify this string, because its assigned to an array.
+  *string = 'Y';
   //char *ptr = "Rami";
   //*ptr = 'S'; // We cannot modify a string literal
-  printf("%s\n", string);
-  return (0);
+  printf("%s", string);
 }
