@@ -6,10 +6,22 @@
 
 int main(void)
 {
-  char string[5] = "Hey!"; // 'H' 'e' 'y' '!' '\0'
+  char string[6] = "Hey!"; // 'H' 'e' 'y' '!' '\0' '\0'. Extra rooms get filled with '\0'
   string[0] = 'Y'; // We can modify this string, because its assigned to an array.
   *string = 'Y';
   //char *ptr = "Rami";
   //*ptr = 'S'; // We cannot modify a string literal
-  printf("%s", string);
+  printf("%s\n", string);
+
+  //example;
+  char s[5] = "hello";
+  char t[5];
+
+  int i;
+  for (i=0; s[i] != '\0'; i++)
+    {
+      t[i] = s[i];
+    }
+  printf("%s\n", t);
+  return (0);
 }
