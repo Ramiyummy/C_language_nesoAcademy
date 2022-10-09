@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void swap (int *x, int *y)
+void swap (int *x, int *y) // this swap function only swaps address not value. be Careful! 
 {
   static int *temp;
   temp = x;
@@ -18,7 +18,7 @@ void printab()
       a = a+i; // 6
       b = b+i; // 3
     }
-  swap(&a, &b); //  i = 5, a =3, b =6
+  swap(&a, &b); //  i = 5, a =3, b =
   printf("a = %d, b = %d\n", a, b);
 }
 int main(void)

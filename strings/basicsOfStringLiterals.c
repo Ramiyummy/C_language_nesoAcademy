@@ -10,6 +10,6 @@ int main(void)
   --Rami Bayoumi"); //Consider the spaces before --
 
     printf("%s", "No guts, no glory. "
-    "--Rami Bayoumi"); //Does not consider the indentatation before --
+    "--Rami Bayoumi"); //Does not consider the indentatation before --char *a = "Rami", char a[] = "Rami"
   return (0);
 }
