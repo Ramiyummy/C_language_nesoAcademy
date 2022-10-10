@@ -10,7 +10,7 @@ We want our input function to have following functionalities:
 int input(char str[], int n)
 {
   int ch, i=0;
-  while ((ch = getchar()) != '\n')
+  while ((ch = getchar()) != '\n') 
     {
       if (i<n)
       {
