@@ -1,5 +1,6 @@
 /*
 -title: Structure Types (using structure tags)
+-A Structure tag is used to identify a particular kind of structure
 */
 #include <stdio.h>
 
