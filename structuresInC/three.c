@@ -8,7 +8,7 @@ struct employee //This is a Structure Tag
   char *name;
   int age;
   int salary;
-}
+};
 
 int manager()
 {
