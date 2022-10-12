@@ -10,6 +10,6 @@ void doSomething(void)
 
 int main(void)
 {
-  doSomething;
+  doSomething();
   return (0); 
 }
