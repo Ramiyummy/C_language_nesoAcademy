@@ -1,3 +1,7 @@
+/*
+-title: Function definition.
+-Function Definition: consists of block of code which is capable of performing some specific task.
+*/
 #include <stdio.h>
 
 int num(); // prototype, no need to add the paramters, even if they do exist here.
